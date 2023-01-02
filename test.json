@@ -1,0 +1,14 @@
+{
+  "$id": "https://example.com/blueprint.schema.json",
+  "$schema": "http://json-schema.org/draft-08/schema#",
+  "title": "Blueprint",
+  "description": "Cloudify Blueprint as described https://docs.cloudify.co/5.0.5/developer/blueprints/",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "module": {
+      "type": "number"
+    }    
+  },
+  "required": ["module"]
+}
